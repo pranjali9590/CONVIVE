@@ -12,6 +12,9 @@ import random
 def mainhome(request):
     return render(request, 'mainhome.html')
 
+def edit(request):
+    return render(request, 'edit.html')
+
 @login_required(login_url='signin')
 def index(request):
     user_object = User.objects.get(username=request.user.username)

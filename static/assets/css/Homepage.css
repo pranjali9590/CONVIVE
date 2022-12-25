@@ -1,3 +1,4 @@
+/*  */
 body {
   font-family: "Jost", sans-serif;
   text-align: center;
@@ -18,11 +19,6 @@ h5 {
   font-weight: bold;
 }
 
-/* mix of selectors */
-
-/* .testimonals .container{
-    color:red;
-} */
 .h {
   font-family: "jost", sans-serif;
   font-size: 3.5rem;
@@ -30,24 +26,19 @@ h5 {
   font-weight: bold;
   padding: 20px 30px;
   color: #fff;
+  text-shadow: 2px 2px 6px #000000;
 }
 .container-fluid {
   padding-top: 3%;
   padding-left: 20%;
 }
 /* .fed{
-    padding-left: 15%;
-    padding-right:15%; */
+      padding-left: 15%;
+      padding-right:15%; */
 
 /* navigation bar */
 .navbar {
   padding-bottom: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "courgette";
-  font-size: 5rem;
-  font-weight: bold;
 }
 
 .nav-item {
@@ -62,15 +53,15 @@ h5 {
 .img {
   width: 60%;
   /* transform:rotate(25deg);
-    margin-left: 20%; */
+      margin-left: 20%; */
   /* z-index: -1;
-    position:relative; */
+      position:relative; */
 }
 #features {
-  padding: 7% 15%;
+  padding: 6% 11%;
   background-color: #fff;
   /* position: absolute;
-    z-index: 1; */
+      z-index: 1; */
 }
 .feature-box {
   text-align: center;
@@ -99,7 +90,7 @@ icon:hover {
     rgba(238, 174, 202, 1) 0%,
     rgba(46, 121, 210, 1) 100%
   );
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -131,17 +122,6 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
-}
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .img {
-    position: static;
-    transform: rotate(0);
-  }
 }
 
 #cta {
@@ -179,6 +159,7 @@ h2 {
 
 .btn-lg {
   margin: 10px;
+  padding: 30px;
 }
 
 li {
@@ -195,7 +176,30 @@ hr {
 
 .convive {
   font-size: 3rem;
-  padding: 0 600px 0 30px;
+  padding: 0 650px 0 30px;
   font-family: "Courgette", sans-serif;
   color: #fff;
 }
+
+/* neww */
+
+.break {
+  padding: 30px;
+  margin: auto;
+}
+
+.fa-solid {
+  color: #100661;
+  padding: 0 0 10px;
+}
+
+.ways {
+  padding: 10px;
+}
+
+.listed {
+  text-align: center;
+  margin: auto;
+}
+
+/* new end */
